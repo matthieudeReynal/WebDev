@@ -1,0 +1,117 @@
+html,
+body
+{
+    height: 100%;
+    color : lightgray;
+    background-color: rgb(29, 28, 28);
+}
+.container
+{
+    font : 15px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Helvetica,Geneva,sans-serif;
+    height: 80%;
+    margin-right: 3em;
+    margin-left: 3em;
+    padding-top: 6em;
+}
+
+.text--center
+{
+    text-align: center;
+}
+.text--shadow
+{
+    text-shadow: 1px 1px 2px black; 
+}
+.message 
+{
+    width: 100%;
+    height:5%;
+    border:1px solid rgb(107, 102, 102);;
+    background-color: rgb(29, 28, 28);
+    color: lightgray;
+
+}
+.nickname 
+{
+    border:1px solid rgb(107, 102, 102);
+    background-color: rgb(29, 28, 28);
+    color: lightgray;
+    height: 5%;
+    width: 55%;
+}
+.tabs
+{
+    list-style: none;
+
+}
+.tabs__tab
+{
+    font : 20px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Helvetica,Geneva,sans-serif;
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+
+}
+.u-flex
+{
+    float: top;
+    display: flex;
+    height: 20%;
+}
+.u-flex--column
+{
+    flex-direction: column;
+}
+.u-flex__item
+{
+    flex: 1 1 auto;
+}
+.tool__bar
+{
+    position: fixed; 
+    background-color:  yellow;
+    width: 100%;
+    height: 4em;
+    
+}
+.send_button
+{
+    background-color:yellow;
+    border: none;
+    color: black;
+    width : 10%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+
+}
+.home__button
+{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.blocks {
+    font : 15px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Helvetica,Geneva,sans-serif;
+    display: inline-block;
+    margin-right: 7em;
+    width: 75%;
+    margin-top: 2px;
+    }
+    
+.main
+{
+    font : 15px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Helvetica,Geneva,sans-serif;
+    float: right;
+    height: 90%;
+    width: 95%;
+}
+figure {
+    margin: 0;
+}
+
+
+/*# sourceMappingURL=/main.af46ece4.css.map */
