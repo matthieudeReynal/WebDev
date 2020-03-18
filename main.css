@@ -13,17 +13,7 @@ body
     margin-left: 3em;
     padding-top: 6em;
 }
-.discussion 
-{
-    overflow: scroll;
-    border:1px solid black;
-    height:85%;
-    width: 96%;
-    padding-left: 2%;
-    background-color: rgb(29, 28, 28);
-    border: none;
-    color: lightgray;
-}
+
 .text--center
 {
     text-align: center;
@@ -86,14 +76,14 @@ body
 }
 .send_button
 {
-    background-color:darkgreen;
+    background-color:yellow;
     border: none;
-    color: lightgray;
-    width : 40%;
+    color: black;
+    width : 10%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
 
 }
 .home__button
@@ -102,15 +92,6 @@ body
     text-align: center;
     text-decoration: none;
     display: inline-block;
-}
-.lateral_chat
-{
-    float: left;
-    position: fixed;
-    border: 1px solid #ccc;
-    background-color: rgb(29, 28, 28);
-    width: 20%;
-    height: 100%;
 }
 
 .blocks {
@@ -127,4 +108,7 @@ body
     float: right;
     height: 90%;
     width: 95%;
+}
+figure {
+    margin: 0;
 }
