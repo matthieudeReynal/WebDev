@@ -31,14 +31,7 @@ body
     color: lightgray;
 
 }
-.nickname 
-{
-    border:1px solid rgb(107, 102, 102);
-    background-color: rgb(29, 28, 28);
-    color: lightgray;
-    height: 5%;
-    width: 55%;
-}
+
 .tabs
 {
     list-style: none;
@@ -84,7 +77,6 @@ body
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-
 }
 .home__button
 {
