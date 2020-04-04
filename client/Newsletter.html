@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SoundBox</title>
+    <title>Newsletter</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -22,7 +22,7 @@
                     </a>
                 </li>
                 <li class = "tabs__tab">
-                    <a href="\Newsletter.html" class="home__button">
+                    <a href="\Newsletter.html" class="activeTab">
                         Newsletter
                     </a>
                 </li>
@@ -36,15 +36,13 @@
     </header>
     <main class = "container  u-flex__item">
         
-        <div>
-            Listen and download Pikachu sounds!
+        <div class = "main">
+           Abonne toi à la Newsletter pour être tenu au courant! Fais péter ton adresse mail pour avoir accès aux derniers sons de Pikachu!
         </div>
-       
-        <audio controls>
-            
-            <source src="Pika_Pikapika_Pikachuu.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
+        <div>
+            <input type="text" class="mail"  id = "mail">
+            <input type="submit" class="send_button" id = "submit" value="Send">
+        </div>
     </main>
     
     <script src = "./index.js">

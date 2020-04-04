@@ -1,0 +1,18 @@
+{
+  "name": "web2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build *.html",
+    "predeploy": "npm run build",
+    "deploy": "surge dist http://neighborly-water.surge.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
+
